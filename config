@@ -1,6 +1,7 @@
 {
     "height": 30,
     "spacing": 4,
+    "layer": "top",
     "modules-left": ["wlr/workspaces", "hyprland/window"],
     "modules-center": ["custom/clock"],
     "modules-right": ["mpd", "pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "battery", "battery#bat2",  "tray"],

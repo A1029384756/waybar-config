@@ -3,15 +3,24 @@
   font-size: 13px;
 }
 
-window#waybar {
+window {
   background-color: #3c3836;
   color: #ebdbb2;
   transition-property: background-color;
   transition-duration: .5s;
+  opacity: 0.9;
+}
+
+window#waybar {
+  opacity: 1.0;
 }
 
 window#waybar.hidden {
   opacity: 0.2;
+}
+
+tooltip {
+  opacity: 0.7;
 }
 
 button {
